@@ -101,6 +101,7 @@
 }
 
 .process_img {
+	width: 100%;
 	margin-bottom: 30px;
 }
 
@@ -177,7 +178,7 @@
 
 .intro_title {
 	font-size: 20px;
-	color: #44548e;
+	color: #7d0022;
 }
 
 .intro_text {
@@ -204,7 +205,7 @@
 }
 
 .case_content {
-	border: 3px solid #0068b7;
+	border: 3px solid #7d0022;
 	line-height: 40px;
 	margin-top: 56px;
 	padding: 20px;
