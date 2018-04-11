@@ -10,18 +10,18 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 	<title>帮助中心</title>
-	<link rel="stylesheet" href="../styles/common/cn.css">
-	<link rel="stylesheet" href="../styles/common/header.css">
-	<link rel="stylesheet" href="../styles/common/footer.css">
-	<link rel="stylesheet" href="../styles/module/help.css">
+	<link rel="stylesheet" href="./styles/common/cn.css">
+	<link rel="stylesheet" href="./styles/common/header.css">
+	<link rel="stylesheet" href="./styles/common/footer.css">
+	<link rel="stylesheet" href="./styles/module/help.css">
 	
 </head>
 <body>
-	@@include('../include/header.html')
+	@@include('./include/header.html')
 	<div class="main_help">
 		<div class="main_content">
 			<div class="left_content">
-				<img src="../styles/images/help_logo.png" alt="" class="help_logo">
+				<img src="./styles/images/help_logo.png" alt="" class="help_logo">
 				<ul class="help_list" id="helpList">
 					<li class="list_link active" data-index='0'>客户须知</li>
 					<li class="list_link" data-index='1'>规则介绍</li>
@@ -34,30 +34,30 @@
 			<div class="right_content">
 				<div class="content_box" id="helpContentBox">
 					<div class="content_item">
-						@@include('../include/help_customer_information.html')
+						@@include('./include/help_customer_information.html')
 					</div>
 					<div class="content_item hide">
-						@@include('../include/help_rule_intro.html')
+						@@include('./include/help_rule_intro.html')
 					</div>
 					<div class="content_item hide">
-						@@include('../include/help_legal_notice.html')
+						@@include('./include/help_legal_notice.html')
 					</div>
 					<div class="content_item hide">
-						@@include('../include/risk_disclosure.html')
+						@@include('./include/risk_disclosure.html')
 					</div>
 					<div class="content_item hide">
-						@@include('../include/help_commitment.html')
+						@@include('./include/help_commitment.html')
 					</div>
 					<div class="content_item hide">
-						@@include('../include/cooperative_agreements.html')
+						@@include('./include/cooperative_agreements.html')
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	@@include('../include/footer.html')
-	<script src="../js/common/jquery-1.12.4.min.js"></script>
-	<script src="../js/common/header.js"></script>
-	<script src="../js/module/help.js"></script>
+	@@include('./include/footer.html')
+	<script src="./js/common/jquery-1.12.4.min.js"></script>
+	<script src="./js/common/header.js"></script>
+	<script src="./js/module/help.js"></script>
 </body>
 </html>

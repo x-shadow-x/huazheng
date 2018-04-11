@@ -115,19 +115,19 @@
 
 .left_content {
 	float: left;
-	width: 50%;
-	line-height: 44px;
-}
-
-.left_content p {
-	text-indent: 2em;
+	width: 44%;
+	margin-top: 20px;
+	text-align: center;
 }
 
 .right_content {
 	float: right;
-	width: 44%;
-	margin-top: 20px;
-	text-align: center;
+	width: 50%;
+	line-height: 44px;
+}
+
+.right_content p {
+	text-indent: 2em;
 }
 
 .intro_img {
@@ -161,7 +161,7 @@
 
 .benefit_table {
 	float: left;
-	line-height: 47px;
+	line-height: 59.5px;
 	text-align: center;
 }
 
