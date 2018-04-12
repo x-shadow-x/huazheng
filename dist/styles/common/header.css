@@ -139,3 +139,58 @@
 .qq_chart_icon {
 	width: 92px;
 }
+
+.qr_code_tab {
+	position: relative;
+}
+
+.qr_code_box_hover {
+	position: absolute;
+	background: rgba(0, 0, 0, .6);
+	border-radius: 10px;
+	padding: 14px;
+	left: 50%;
+	top: 100%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	margin-top: 12px;
+	white-space: nowrap;
+	z-index: 1000;
+	display: none;
+}
+
+.qr_code_box_hover:after {
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	content: '';
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: rgba(0, 0, 0, .6);
+}
+
+.qr_code_box {
+	display: inline-block;
+	vertical-align: middle;
+	background: #fff;
+	text-align: center;
+	padding: 10px;
+	color: #333;
+	line-height: 1;
+	font-size: 12px;
+}
+
+.qr_code_box + .qr_code_box {
+	margin-left: 20px;
+}
+
+.qr_code_box img {
+	width: 100px;
+}

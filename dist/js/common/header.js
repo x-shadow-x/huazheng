@@ -14,17 +14,23 @@ $(function() {
 		$(this).find('.tool_detail').removeClass('show');
 	});
 
+	$('#scan').mouseenter(function() {
+		$('#qrCodeBoxHover').stop().fadeIn(240);
+	}).mouseleave(function() {
+		$('#qrCodeBoxHover').stop().fadeOut(240);
+	});
+
 	(function setTabList() {
 		var tempLocation = window.location.href.split('?');
 		var query = {};
-		if(tempLocation[1]) {
+		if (tempLocation[1]) {
 			var queryArr = tempLocation[1].split('&');
 			queryArr.forEach(function(item, index) {
 				var tempArr = item.split('=');
 				query[tempArr[0]] = tempArr[1];
 			})
 		}
-		
+
 		var index = query['index'] || 0;
 		$('.tab_item').eq(index).addClass('active');
 	})()
